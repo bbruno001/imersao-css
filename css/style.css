@@ -2,11 +2,16 @@ body {
     background-image: url("https://cdn.pixabay.com/photo/2016/03/06/06/42/low-poly-1239778_960_720.jpg");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
     font-family: 'Roboto Mono', monospace;
 }
 
 .menu {
     background-color: whitesmoke;
+    flex-direction: row;
+    padding: 0.25rem;
+    position: relative;
 }
 
 .menu li {
