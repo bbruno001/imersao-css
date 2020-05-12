@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/06/06/42/low-poly-1239778_960_720.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.menu {
+    background-color: whitesmoke;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: rgb(80, 77, 77);
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.title,
+.sub-title{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.sub-title {
+    font-style: italic;
+}
